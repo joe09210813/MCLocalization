@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04D1C08F226DA25900AF0065 /* MMCLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D1C08D226DA25900AF0065 /* MMCLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1C092226DA25900AF0065 /* MMCLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D1C08B226DA25800AF0065 /* MMCLocalization.framework */; };
+		04D1C093226DA25900AF0065 /* MMCLocalization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D1C08B226DA25800AF0065 /* MMCLocalization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D1C099226DA29200AF0065 /* MCLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 867226AE16F1EFF900CAC625 /* MCLocalization.m */; };
+		04D1C09C226DA29200AF0065 /* MCLocalizationDummyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADD61A980E5F00094122 /* MCLocalizationDummyDataSource.m */; };
+		04D1C09E226DA29200AF0065 /* MCLocalizationSingleJSONFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADCF1A97FFD900094122 /* MCLocalizationSingleJSONFileDataSource.m */; };
+		04D1C0A0226DA29200AF0065 /* MCLocalizationOneJSONFilePerLanguageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADD31A9809B400094122 /* MCLocalizationOneJSONFilePerLanguageDataSource.m */; };
+		04D1C0A1226DA2EA00AF0065 /* MCLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 867226AD16F1EFF900CAC625 /* MCLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1C0A2226DA2EA00AF0065 /* MCLocalizationDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 867AADD11A98001900094122 /* MCLocalizationDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1C0A3226DA2EA00AF0065 /* MCLocalizationDummyDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 867AADD51A980E5F00094122 /* MCLocalizationDummyDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1C0A4226DA2EA00AF0065 /* MCLocalizationSingleJSONFileDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 867AADCE1A97FFD900094122 /* MCLocalizationSingleJSONFileDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04D1C0A5226DA2EA00AF0065 /* MCLocalizationOneJSONFilePerLanguageDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 867AADD21A9809B400094122 /* MCLocalizationOneJSONFilePerLanguageDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8672268616F1CC0D00CAC625 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672268516F1CC0D00CAC625 /* UIKit.framework */; };
 		8672268816F1CC0D00CAC625 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672268716F1CC0D00CAC625 /* Foundation.framework */; };
 		8672268A16F1CC0D00CAC625 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8672268916F1CC0D00CAC625 /* CoreGraphics.framework */; };
@@ -18,17 +30,40 @@
 		8672269C16F1CC0D00CAC625 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8672269B16F1CC0D00CAC625 /* Default-568h@2x.png */; };
 		8672269F16F1CC0D00CAC625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8672269E16F1CC0D00CAC625 /* ViewController.m */; };
 		867226A216F1CC0D00CAC625 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 867226A016F1CC0D00CAC625 /* ViewController.xib */; };
-		867226AF16F1EFF900CAC625 /* MCLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 867226AE16F1EFF900CAC625 /* MCLocalization.m */; };
 		867226B116F21F9B00CAC625 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 867226B016F21F9B00CAC625 /* README.md */; };
 		867226B316F229C600CAC625 /* strings.json in Resources */ = {isa = PBXBuildFile; fileRef = 867226B216F229C600CAC625 /* strings.json */; };
-		867AADD01A97FFD900094122 /* MCLocalizationSingleJSONFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADCF1A97FFD900094122 /* MCLocalizationSingleJSONFileDataSource.m */; };
-		867AADD41A9809B400094122 /* MCLocalizationOneJSONFilePerLanguageDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADD31A9809B400094122 /* MCLocalizationOneJSONFilePerLanguageDataSource.m */; };
-		867AADD71A980E5F00094122 /* MCLocalizationDummyDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AADD61A980E5F00094122 /* MCLocalizationDummyDataSource.m */; };
 		867AADDA1A981E7500094122 /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = 867AADD81A981E7500094122 /* ru.json */; };
 		867AADDB1A981E7500094122 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 867AADD91A981E7500094122 /* en.json */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04D1C090226DA25900AF0065 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8672267A16F1CC0D00CAC625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D1C08A226DA25800AF0065;
+			remoteInfo = MMCLocalization;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04D1C097226DA25900AF0065 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04D1C093226DA25900AF0065 /* MMCLocalization.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04D1C08B226DA25800AF0065 /* MMCLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMCLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D1C08D226DA25900AF0065 /* MMCLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMCLocalization.h; sourceTree = "<group>"; };
+		04D1C08E226DA25900AF0065 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8672268216F1CC0D00CAC625 /* MCLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8672268516F1CC0D00CAC625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8672268716F1CC0D00CAC625 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,6 +96,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04D1C088226DA25800AF0065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8672267F16F1CC0D00CAC625 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,18 +110,29 @@
 				8672268616F1CC0D00CAC625 /* UIKit.framework in Frameworks */,
 				8672268816F1CC0D00CAC625 /* Foundation.framework in Frameworks */,
 				8672268A16F1CC0D00CAC625 /* CoreGraphics.framework in Frameworks */,
+				04D1C092226DA25900AF0065 /* MMCLocalization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D1C08C226DA25900AF0065 /* MMCLocalization */ = {
+			isa = PBXGroup;
+			children = (
+				04D1C08D226DA25900AF0065 /* MMCLocalization.h */,
+				04D1C08E226DA25900AF0065 /* Info.plist */,
+			);
+			path = MMCLocalization;
+			sourceTree = "<group>";
+		};
 		8672267916F1CC0D00CAC625 = {
 			isa = PBXGroup;
 			children = (
 				867226B016F21F9B00CAC625 /* README.md */,
 				867226AC16F1EFCC00CAC625 /* Classes */,
 				8672268B16F1CC0D00CAC625 /* MCLocalization */,
+				04D1C08C226DA25900AF0065 /* MMCLocalization */,
 				8672268416F1CC0D00CAC625 /* Frameworks */,
 				8672268316F1CC0D00CAC625 /* Products */,
 			);
@@ -89,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				8672268216F1CC0D00CAC625 /* MCLocalization.app */,
+				04D1C08B226DA25800AF0065 /* MMCLocalization.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,7 +205,41 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		04D1C086226DA25800AF0065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1C08F226DA25900AF0065 /* MMCLocalization.h in Headers */,
+				04D1C0A1226DA2EA00AF0065 /* MCLocalization.h in Headers */,
+				04D1C0A2226DA2EA00AF0065 /* MCLocalizationDataSource.h in Headers */,
+				04D1C0A3226DA2EA00AF0065 /* MCLocalizationDummyDataSource.h in Headers */,
+				04D1C0A4226DA2EA00AF0065 /* MCLocalizationSingleJSONFileDataSource.h in Headers */,
+				04D1C0A5226DA2EA00AF0065 /* MCLocalizationOneJSONFilePerLanguageDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		04D1C08A226DA25800AF0065 /* MMCLocalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D1C096226DA25900AF0065 /* Build configuration list for PBXNativeTarget "MMCLocalization" */;
+			buildPhases = (
+				04D1C086226DA25800AF0065 /* Headers */,
+				04D1C087226DA25800AF0065 /* Sources */,
+				04D1C088226DA25800AF0065 /* Frameworks */,
+				04D1C089226DA25800AF0065 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMCLocalization;
+			productName = MMCLocalization;
+			productReference = 04D1C08B226DA25800AF0065 /* MMCLocalization.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8672268116F1CC0D00CAC625 /* MCLocalization */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 867226A516F1CC0D00CAC625 /* Build configuration list for PBXNativeTarget "MCLocalization" */;
@@ -159,10 +247,12 @@
 				8672267E16F1CC0D00CAC625 /* Sources */,
 				8672267F16F1CC0D00CAC625 /* Frameworks */,
 				8672268016F1CC0D00CAC625 /* Resources */,
+				04D1C097226DA25900AF0065 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04D1C091226DA25900AF0065 /* PBXTargetDependency */,
 			);
 			name = MCLocalization;
 			productName = MCLocalization;
@@ -177,6 +267,12 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = MobileCreators;
+				TargetAttributes = {
+					04D1C08A226DA25800AF0065 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 8672267D16F1CC0D00CAC625 /* Build configuration list for PBXProject "MCLocalization" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -191,11 +287,19 @@
 			projectRoot = "";
 			targets = (
 				8672268116F1CC0D00CAC625 /* MCLocalization */,
+				04D1C08A226DA25800AF0065 /* MMCLocalization */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04D1C089226DA25800AF0065 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8672268016F1CC0D00CAC625 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,21 +319,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04D1C087226DA25800AF0065 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D1C09E226DA29200AF0065 /* MCLocalizationSingleJSONFileDataSource.m in Sources */,
+				04D1C09C226DA29200AF0065 /* MCLocalizationDummyDataSource.m in Sources */,
+				04D1C0A0226DA29200AF0065 /* MCLocalizationOneJSONFilePerLanguageDataSource.m in Sources */,
+				04D1C099226DA29200AF0065 /* MCLocalization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8672267E16F1CC0D00CAC625 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8672269216F1CC0D00CAC625 /* main.m in Sources */,
 				8672269616F1CC0D00CAC625 /* AppDelegate.m in Sources */,
-				867AADD01A97FFD900094122 /* MCLocalizationSingleJSONFileDataSource.m in Sources */,
 				8672269F16F1CC0D00CAC625 /* ViewController.m in Sources */,
-				867AADD41A9809B400094122 /* MCLocalizationOneJSONFilePerLanguageDataSource.m in Sources */,
-				867226AF16F1EFF900CAC625 /* MCLocalization.m in Sources */,
-				867AADD71A980E5F00094122 /* MCLocalizationDummyDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D1C091226DA25900AF0065 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D1C08A226DA25800AF0065 /* MMCLocalization */;
+			targetProxy = 04D1C090226DA25900AF0065 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8672268E16F1CC0D00CAC625 /* InfoPlist.strings */ = {
@@ -251,6 +370,119 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04D1C094226DA25900AF0065 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MMCLocalization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.mitake.MMCLocalization;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04D1C095226DA25900AF0065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = MMCLocalization/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.mitake.MMCLocalization;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		867226A316F1CC0D00CAC625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,9 +542,11 @@
 		867226A616F1CC0D00CAC625 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCLocalization/MCLocalization-Prefix.pch";
 				INFOPLIST_FILE = "MCLocalization/MCLocalization-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -321,9 +555,11 @@
 		867226A716F1CC0D00CAC625 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCLocalization/MCLocalization-Prefix.pch";
 				INFOPLIST_FILE = "MCLocalization/MCLocalization-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -332,6 +568,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04D1C096226DA25900AF0065 /* Build configuration list for PBXNativeTarget "MMCLocalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D1C094226DA25900AF0065 /* Debug */,
+				04D1C095226DA25900AF0065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8672267D16F1CC0D00CAC625 /* Build configuration list for PBXProject "MCLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
